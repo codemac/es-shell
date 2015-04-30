@@ -1,8 +1,6 @@
 /* parse.y -- grammar for es ($Revision: 1.2 $) */
 
 %{
-/* Some yaccs insist on including stdlib.h */
-#define _STDLIB_H
 #include "es.h"
 #include "input.h"
 #include "syntax.h"

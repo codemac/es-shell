@@ -279,7 +279,7 @@ extern int fmtprint VARARGS2(Format *, format, const char *, fmt) {
 	VA_START(format->args, fmt);
 	n += printfmt(format, fmt);
 	va_end(format->args);
-	format->args = saveargs;
+	memcpy(format->args, saveargs, sizeof(va_list));
 
 	return n + format->flushed;
 }
