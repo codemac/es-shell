@@ -1,0 +1,15 @@
+*.o
+*\~
+/es-0.9-beta1/Makefile
+/es-0.9-beta1/config.cache
+/es-0.9-beta1/config.h
+/es-0.9-beta1/config.log
+/es-0.9-beta1/config.status
+/es-0.9-beta1/es
+/es-0.9-beta1/esdump
+/es-0.9-beta1/initial.c
+/es-0.9-beta1/sigmsgs.c
+/es-0.9-beta1/token.h
+/es-0.9-beta1/y.output
+/es-0.9-beta1/y.tab.c
+/es-0.9-beta1/y.tab.h
